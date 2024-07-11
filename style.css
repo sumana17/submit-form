@@ -1,0 +1,69 @@
+body{
+    background-color: rgb(28, 22, 95);
+    color:rgb(234, 240, 242);
+}
+#title{
+    text-align:center;
+    margin-bottom: 0;
+    font-size:xx-large;
+}
+#description{
+    margin-top: 0;
+    text-align: center;
+    font-style: bold;
+    padding: 50px;
+    font-size: x-large;
+}
+#survey-form{
+    width: 80%;
+    margin: 30px;
+    padding: 75px;
+    background-color: rgba(0,0,0,0.6);
+    border-radius: 5px;
+}
+fieldset {
+    border:none;
+    width:80%;
+    padding:15px 0;
+  } 
+
+label,fieldset:first-child input,select,#submit{
+    display: block;
+    width: 90%;
+    border-radius: 5px;
+}
+textarea {
+    margin-top:5px;
+    display:block;
+    width:80%;
+  }
+  
+  
+  fieldset:first-child input,select {
+    margin:5px 0;
+    padding:7px;
+  }
+  
+  fieldset:first-child label {
+    margin: 20px;
+  }
+  
+  
+  fieldset:nth-child(2) label {
+    margin:10px 0;
+  }
+  
+  fieldset:nth-child(2) input {
+    margin:0;
+  }
+  
+  #submit {
+   
+    width:80px;
+    background-color:rgb(55, 175, 101);
+    margin:10px;
+    border:none;
+    height:40px;
+    color:white;
+  }
+  
